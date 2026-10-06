@@ -5,8 +5,9 @@
     test in this project. Use with:
       dotnet test -s playwright.runsettings
     Override BrowserName on the command line to run the same suite against
-    a different engine without editing this file, e.g.:
-      dotnet test -s playwright.runsettings -- Playwright.BrowserName=firefox
+    a different engine without editing this file: append
+    Playwright.BrowserName=firefox after the double-dash separator
+    (see README.md for the exact command).
   -->
   <Playwright>
     <BrowserName>chromium</BrowserName>

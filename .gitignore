@@ -4,3 +4,4 @@ TestResults/
 screenshots/
 *.trx
 .vs/
+!blog/screenshots/
